@@ -1,7 +1,6 @@
 # Workshop 02 — Day 23: Nghiên Cứu Case Thành Công / Thất Bại
 
 **Nhóm:** [tên nhóm]
-**Sinh viên:** Chu Thị Ngọc Huyền (2A202600015)
 **Ngày:** 11/05/2026
 
 ---
