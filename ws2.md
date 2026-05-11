@@ -7,8 +7,8 @@
 
 ## 1. Hai case được chọn
 
-- **Case thành công:** Morgan Stanley — AI @ Morgan Stanley Assistant (GPT-4) cho financial advisors.
-- **Case thất bại / cảnh báo:** IBM Watson for Oncology tại MD Anderson Cancer Center.
+- **Case thành công:** Morgan Stanley — AI @ Morgan Stanley Assistant (GPT-4) cho financial advisors [1][2][3].
+- **Case thất bại / cảnh báo:** IBM Watson for Oncology tại MD Anderson Cancer Center [4][5][6].
 
 ---
 
@@ -40,3 +40,27 @@
 - Từ Morgan Stanley: thêm **citation/source rate** + **time-saved per email** + **advisor (CS agent) NPS**.
 - Từ Watson: thêm **override rate** (% nháp bị CS agent sửa nhiều), **QA rework rate**, **escalation rate khi AI sai**, và **data-readiness check** cho context của email (CRM, lịch sử khách).
 - Vanity metric cần bỏ: “số email có AI hỗ trợ” một mình — phải đi kèm “% email gửi đi không bị QA flag”.
+
+---
+
+## 5. Nguồn trích dẫn
+
+**Case Morgan Stanley AI Assistant**
+
+1. OpenAI (2023). *Morgan Stanley wealth management deploys GPT-4 to organize its vast knowledge base* — Customer story trên OpenAI, mô tả triển khai GPT-4 cho ~16.000 financial advisor và truy cập ~100k tài liệu nghiên cứu nội bộ.
+   https://openai.com/index/morgan-stanley/
+2. Morgan Stanley (14/09/2023). *Morgan Stanley Wealth Management Announces Key Milestone in Innovation Journey with OpenAI* — Thông cáo báo chí chính thức của Morgan Stanley công bố ra mắt AI @ Morgan Stanley Assistant.
+   https://www.morganstanley.com/press-releases/key-milestone-in-innovation-journey-with-openai
+3. CNBC (06/2024). McCrank, J. *Morgan Stanley rolls out AI assistant powered by OpenAI* — Báo cáo về tỉ lệ adoption (>98%) và tác động lên thời gian tra cứu của advisor.
+
+**Case IBM Watson for Oncology — MD Anderson**
+
+4. University of Texas System Administration (08/2016). *Special Review of Procurement Procedures Related to the M.D. Anderson Cancer Center Oncology Expert Advisor Project* — Báo cáo audit chính thức của hệ thống University of Texas về dự án Watson tại MD Anderson, ghi nhận chi phí ~$62 triệu và việc dự án bị dừng.
+   https://www.utsystem.edu/sites/default/files/documents/UT%20System%20Administration%20Special%20Review%20of%20Procurement%20Procedures%20Related%20to%20the%20MDACC%20Oncology%20Expert%20Advisor%20Project/ut-system-administration-special-review-procurement-procedures-related-mdacc-oncology-expert-advisor-project.pdf
+5. STAT News (05/09/2017). Ross, C. & Swetlitz, I. *IBM pitched its Watson supercomputer as a revolution in cancer care. It’s nowhere close* — Điều tra cho thấy Watson được huấn luyện trên các case giả định (hypothetical/synthetic) thay vì hồ sơ bệnh nhân thật, và đưa ra khuyến nghị điều trị không an toàn.
+   https://www.statnews.com/2017/09/05/watson-ibm-cancer/
+6. Forbes (02/2017). Herper, M. *MD Anderson Benches IBM Watson In Setback For Artificial Intelligence In Medicine* — Đưa tin về việc MD Anderson tạm ngưng dự án và bối cảnh ngân sách.
+   https://www.forbes.com/sites/matthewherper/2017/02/19/md-anderson-benches-ibm-watson-in-setback-for-artificial-intelligence-in-medicine/
+
+> *Lưu ý: các URL trên là nguồn công khai; nhóm nên truy cập lại để xác minh số liệu trước khi nộp.*
+
