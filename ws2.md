@@ -1,6 +1,11 @@
 # Workshop 02 — Day 23: Nghiên Cứu Case Thành Công / Thất Bại
 
-**Nhóm:** [tên nhóm]
+**Nhóm:** 
+1. Chu Thị Ngọc Huyền - 2A202600015
+2. Nguyễn Thị Tuyết - 2A202600215
+3. Hứa Quang Linh - 2A202600466
+4. Dương Khoa Điềm - 2A202600366
+5. Hoàng Hiệp - 2A202600065
 **Ngày:** 11/05/2026
 
 ---
