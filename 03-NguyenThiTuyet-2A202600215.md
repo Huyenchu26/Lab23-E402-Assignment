@@ -6,7 +6,7 @@
 
 ---
 
-## 2. Part A — Adoption Context
+## 1. Part A — Adoption Context
 
 | Trường | Trả lời |
 |---|---|
@@ -35,7 +35,7 @@
 
 ---
 
-## 3. Part B — ROI Dashboard
+## 2. Part B — ROI Dashboard
 
 ### B.1 Metric toàn product
 
@@ -93,7 +93,7 @@
 
 ---
 
-## 4. Part C — Dashboard Mock
+## 3. Part C — Dashboard Mock
 
 Vẽ 6 ô: ô đầu là sức khoẻ toàn product, các ô sau theo workflow + quyết định.
 
@@ -134,7 +134,7 @@ Vẽ 6 ô: ô đầu là sức khoẻ toàn product, các ô sau theo workflow +
 
 ---
 
-## 5. Part D — Decision Memo
+## 4. Part D — Decision Memo
 
 ```markdown
 # Decision Memo — SmartAds AI (Pilot Phase, 30 shop / 12 tháng)
@@ -173,16 +173,3 @@ Vẽ 6 ô: ô đầu là sức khoẻ toàn product, các ô sau theo workflow +
 
 ---
 
-## 7. Checklist trước khi nộp
-
-- [x] Có 1 product cụ thể: **SmartAds AI cho chủ shop thời trang nữ online**, không chọn "AI cho cả công ty".
-- [x] Có 2-4 workflow chính: 4 workflow (Data integration → Scoring → Recommendation → Watch mode/HITL).
-- [x] Mỗi workflow có vai trò AI, human review và failure path (cột "AI làm gì / Con người kiểm tra / Khi AI sai").
-- [x] Có rào cản ADKAR chính: **Ability + Reinforcement**.
-- [x] Dashboard có metric toàn product (B.1) và metric theo workflow (B.2 × 4 workflow).
-- [x] Không chỉ đo usage: đã thay vanity "click Accept" bằng tổ hợp với Meta API + CPA cohort.
-- [x] Có baseline, target, data source và owner cho các metric chính.
-- [x] Có ít nhất 1 metric Quality (Precision, Acceptance-with-explain), Trust (Override rate, Confidence calibration, Incident rate) và Value (CPA lift, LTV/CAC).
-- [x] Có Red-team risk và Fix cho mọi dòng metric.
-- [x] Có ≥2 thay đổi rõ từ v1 sang v2 (xem Decision Memo mục 3): (i) adoption metric ghép Meta API cross-check + CPA cohort, (ii) Workflow-1 activation thay bằng data-readiness ≥7 ngày.
-- [x] Decision Memo có **continue / pivot / kill** → "**continue with guardrails**".
