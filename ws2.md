@@ -24,26 +24,7 @@
 | **Thiếu metric nào?** | – Outcome tài chính (AUM/advisor, client retention, revenue uplift). – Quality audit độc lập (% câu trả lời sai về compliance). – Override rate: advisor sửa/bỏ output của AI bao nhiêu %. | – Acceptance rate của bác sĩ. – Override / disagreement rate. – Outcome lâm sàng (survival, response rate, adverse event). – Data-readiness metric (Watson train trên dữ liệu nào, generalize ra bệnh nhân thật được không). – Integration metric (có chạy được trong EMR thật không). – Cost-to-value (chi phí/ca dùng được). |
 | **Bài học cho dashboard của nhóm** | Đo cả 3 lớp: **adoption** (có dùng) + **productivity** (nhanh hơn) + **trust/quality** (có nguồn, có audit). Mỗi workflow phải có human-review point rõ. | Không được dừng ở **input metric** (đã chi, đã train, đã demo). Phải có **outcome + quality + override** ngay từ v1, và phải kiểm tra **readiness của dữ liệu** trước khi đếm “AI đã làm gì”. |
 
----
-
-## 3. Bài học rút ra cho dashboard nhóm
-
-1. **Không đo bằng usage thuần.** Active users / số prompt cao như Watson không cứu được dự án nếu không có outcome. Morgan Stanley đo usage *kèm* citation accuracy + time-saved → mới chứng minh được giá trị.
-2. **Phải có 3 lớp tối thiểu cho mỗi workflow:** Adoption → Productivity/Quality → Trust (override/accept rate). Thiếu lớp Trust là thiếu cái Watson đã thiếu.
-3. **Readiness của dữ liệu phải là điều kiện bật đèn xanh, không phải metric phụ.** Watson fail một phần vì train trên hypothetical cases. Dashboard nhóm cần một ô “data source + data quality check” trước khi tính ROI.
-4. **Mỗi metric phải trả lời được câu “chứng minh cái gì, chưa chứng minh cái gì”.** Nếu một chỉ số không loại được giả thuyết “AI vẫn vô dụng”, thì nó là vanity metric và phải thay.
-
----
-
-## 4. Áp dụng vào case của nhóm (AI trả lời email khách hàng — từ ws1)
-
-- Từ Morgan Stanley: thêm **citation/source rate** + **time-saved per email** + **advisor (CS agent) NPS**.
-- Từ Watson: thêm **override rate** (% nháp bị CS agent sửa nhiều), **QA rework rate**, **escalation rate khi AI sai**, và **data-readiness check** cho context của email (CRM, lịch sử khách).
-- Vanity metric cần bỏ: “số email có AI hỗ trợ” một mình — phải đi kèm “% email gửi đi không bị QA flag”.
-
----
-
-## 5. Nguồn trích dẫn
+## 3. Nguồn trích dẫn
 
 **Case Morgan Stanley AI Assistant**
 
@@ -62,5 +43,24 @@
 6. Forbes (02/2017). Herper, M. *MD Anderson Benches IBM Watson In Setback For Artificial Intelligence In Medicine* — Đưa tin về việc MD Anderson tạm ngưng dự án và bối cảnh ngân sách.
    https://www.forbes.com/sites/matthewherper/2017/02/19/md-anderson-benches-ibm-watson-in-setback-for-artificial-intelligence-in-medicine/
 
-> *Lưu ý: các URL trên là nguồn công khai; nhóm nên truy cập lại để xác minh số liệu trước khi nộp.*
+## 4. Bài học rút ra cho dashboard nhóm
+
+1. **Không đo bằng usage thuần.** Active users / số prompt cao như Watson không cứu được dự án nếu không có outcome. Morgan Stanley đo usage *kèm* citation accuracy + time-saved → mới chứng minh được giá trị.
+2. **Phải có 3 lớp tối thiểu cho mỗi workflow:** Adoption → Productivity/Quality → Trust (override/accept rate). Thiếu lớp Trust là thiếu cái Watson đã thiếu.
+3. **Readiness của dữ liệu phải là điều kiện bật đèn xanh, không phải metric phụ.** Watson fail một phần vì train trên hypothetical cases. Dashboard nhóm cần một ô “data source + data quality check” trước khi tính ROI.
+4. **Mỗi metric phải trả lời được câu “chứng minh cái gì, chưa chứng minh cái gì”.** Nếu một chỉ số không loại được giả thuyết “AI vẫn vô dụng”, thì nó là vanity metric và phải thay.
+
+---
+
+## 5. Áp dụng vào case của nhóm (AI trả lời email khách hàng — từ ws1)
+
+- Từ Morgan Stanley: thêm **citation/source rate** + **time-saved per email** + **advisor (CS agent) NPS**.
+- Từ Watson: thêm **override rate** (% nháp bị CS agent sửa nhiều), **QA rework rate**, **escalation rate khi AI sai**, và **data-readiness check** cho context của email (CRM, lịch sử khách).
+- Vanity metric cần bỏ: “số email có AI hỗ trợ” một mình — phải đi kèm “% email gửi đi không bị QA flag”.
+
+---
+
+
+
+
 
